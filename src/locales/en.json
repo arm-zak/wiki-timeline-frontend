@@ -1,0 +1,14 @@
+{
+    "common": {
+        "room_code": "Room code"
+    },
+    "game": {
+        "leave_game": "Leave"
+    },
+    "pages": {
+        "your_name": "Your name",
+        "player_limit": "Player limit"
+    }
+
+
+}

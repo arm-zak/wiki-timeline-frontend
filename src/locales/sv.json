@@ -1,0 +1,12 @@
+{
+    "common": {
+        "room_code": "Rumkod"
+    },
+    "game": {
+        "leave_game": "Lämna"
+    },
+    "pages": {
+        "your_name": "Ditt namn",
+        "player_limit": "Spelargräns"
+    }
+}
