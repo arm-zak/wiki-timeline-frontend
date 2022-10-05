@@ -1,6 +1,6 @@
 <script lang="ts">
   import { game, shownPlayerId, socket, yourPlayerId } from "$lib/stores.js";
-  import type { Player } from "common";
+  import type { Player } from "wiki-timeline-common";
 
   let yourPlayer: Player;
   $: yourPlayer = $game.players.find((player) => player.id === $yourPlayerId);

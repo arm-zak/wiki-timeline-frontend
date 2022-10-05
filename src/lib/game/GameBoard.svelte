@@ -1,8 +1,8 @@
 <script lang="ts">
-  import { GameEventType } from "common";
+  import { GameEventType } from "wiki-timeline-common";
   import { shownPlayerId, socket, yourPlayerId } from "../stores";
   import { game } from "$lib/stores.js";
-  import type { Player } from "common";
+  import type { Player } from "wiki-timeline-common";
   import PlayerList from "$lib/game/PlayerList.svelte";
 
   let shownPlayer: Player;

@@ -1,7 +1,7 @@
 <script lang="ts">
 
   import { game, yourPlayerId } from "$lib/stores.js";
-  import type { Player } from "common";
+  import type { Player } from "wiki-timeline-common";
 
   let winner: Player;
   $: winner = $game.players.sort((a, b) => b.eventQuestions.length -

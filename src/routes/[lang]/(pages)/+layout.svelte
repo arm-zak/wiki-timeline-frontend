@@ -2,7 +2,7 @@
   import "../../../tailwind.css";
   import { locale } from "svelte-i18n";
   import { page } from "$app/stores";
-  import { Language } from "common";
+  import { Language } from "wiki-timeline-common";
   import { getDisplayNames } from "$lib//util/languageNames";
   import { siteTitle } from "$lib/config.js";
   import { goto } from "$app/navigation";

@@ -1,5 +1,5 @@
 import { writable } from "svelte/store";
-import type { Game } from "common";
+import type { Game } from "wiki-timeline-common";
 import type { Socket } from "socket.io-client";
 
 export const game = writable<Game>()

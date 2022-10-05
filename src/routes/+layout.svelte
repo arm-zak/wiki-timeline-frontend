@@ -1,6 +1,6 @@
 <script lang="ts">
   import { getLocaleFromPathname, init, isLoading, register } from "svelte-i18n";
-  import { Language } from "common";
+  import { Language } from "wiki-timeline-common";
 
   register(Language.English, () => import("../locales/en.json"));
   register(Language.Swedish, () => import("../locales/sv.json"));

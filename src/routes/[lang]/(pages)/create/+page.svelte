@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onMount } from "svelte";
   import { page } from "$app/stores";
-  import { Language } from "common";
+  import { Language } from "wiki-timeline-common";
   import { siteTitle } from "$lib/config.js";
   import { goto } from "$app/navigation";
   import { _ } from "svelte-i18n";

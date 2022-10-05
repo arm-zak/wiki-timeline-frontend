@@ -2,9 +2,9 @@
   import { onMount } from "svelte";
   import { page } from "$app/stores";
   import { io } from "socket.io-client";
-  import type { Game } from "common";
-  import { GlobalStatus } from "common";
-  import { GameStatus } from "common";
+  import type { Game } from "wiki-timeline-common";
+  import { GlobalStatus } from "wiki-timeline-common";
+  import { GameStatus } from "wiki-timeline-common";
   import GameBoard from "$lib/game/GameBoard.svelte";
   import GameLobby from "$lib/game/GameLobby.svelte";
   import "../../../../../tailwind.css";
